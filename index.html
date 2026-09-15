@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEORIN PRO — осенняя закупочная акция: до −25% на профессиональную корейскую косметику</title>
+<meta name="description" content="Профессиональная корейская косметика для косметологов и клиник: скидки до 25%, обучение по протоколам в подарок, отгрузка со склада в Москве в день заказа. Акция до 30 сентября.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233F6B5C'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' fill='white' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFFFFF; --bg2:#F5F3F0;
+    --ink:#1A1A1A; --muted:#6B6B6B;
+    --accent:#3F6B5C; --accent-deep:#345849; --accent-soft:#E9EFEA;
+    --line:#E7E2DB; --line-dark:#D9D3CA;
+    --err:#B0483B;
+    --r:8px;
+    --fh:'Manrope',sans-serif; --fb:'Inter',sans-serif;
+    --shadow:0 8px 24px rgba(26,26,26,.07);
+    --pad:clamp(24px,4vw,40px);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font:400 17px/1.5 var(--fb);color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+  [id]{scroll-margin-top:88px}
+  img,svg{display:block}
+  a{color:var(--accent)}
+  h1,h2,h3{font-family:var(--fh);letter-spacing:-.01em}
+  h2{font-size:40px;line-height:48px;font-weight:800}
+  h3{font-size:24px;line-height:32px;font-weight:700}
+  svg text{font-family:var(--fh)}
+  ::placeholder{color:#A9A39A}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  .container{width:100%;max-width:1200px;margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+  .sec{padding:112px 0}
+  .sec-alt{background:var(--bg2)}
+  .lead{font-size:18px;line-height:1.5;color:var(--muted);max-width:620px}
+  .footnote{margin-top:24px;font-size:13px;line-height:1.5;color:var(--muted)}
+  .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:48px}
+  .sec-head h2{margin-bottom:16px}
+
+  /* ---------- Кнопки ---------- */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 24px;border-radius:var(--r);border:1px solid transparent;font:600 15px/1 var(--fh);cursor:pointer;text-decoration:none;transition:background .2s,color .2s,border-color .2s,transform .2s,box-shadow .2s;white-space:nowrap}
+  .btn .lucide{width:18px;height:18px}
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-primary:hover{background:var(--accent-deep);transform:translateY(-1px)}
+  .btn-ghost{border-color:var(--accent);color:var(--accent);background:transparent}
+  .btn-ghost:hover{background:var(--accent-soft)}
+  .btn-lg{height:56px;padding:0 32px;font-size:16px}
+  .btn[disabled]{opacity:.7;cursor:default;transform:none}
+
+  /* ---------- Шапка ---------- */
+  .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.93);backdrop-filter:blur(8px);border-bottom:1px solid transparent;transition:border-color .25s}
+  .header.scrolled{border-bottom-color:var(--line)}
+  .nav{height:72px;display:flex;align-items:center;gap:32px}
+  .logo{font:800 16px var(--fh);letter-spacing:.22em;color:var(--ink);text-decoration:none;white-space:nowrap}
+  .logo b{color:var(--accent);font-weight:800}
+  .main-nav{display:flex;gap:32px;margin:0 auto}
+  .main-nav a{font:600 14px var(--fh);color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:1.5px solid transparent;transition:color .2s,border-color .2s}
+  .main-nav a:hover{color:var(--ink)}
+  .main-nav a.active{color:var(--accent);border-bottom-color:var(--accent)}
+  .nav-right{display:flex;align-items:center;gap:16px;margin-left:auto}
+  .cart-pill{display:none;align-items:center;gap:8px;height:40px;padding:0 16px;border:1px solid var(--line-dark);border-radius:var(--r);background:#fff;font:600 13px var(--fh);color:var(--ink);cursor:pointer;transition:border-color .2s}
+  .cart-pill.show{display:inline-flex}
+  .cart-pill:hover{border-color:var(--accent)}
+  .cart-pill .lucide{width:16px;height:16px;color:var(--accent)}
+  .cart-pill b{min-width:16px;height:16px;padding:0 4px;border-radius:99px;background:var(--accent);color:#fff;font:700 11px/16px var(--fh);text-align:center}
+  .burger{display:none;width:48px;height:48px;border:1px solid var(--line-dark);border-radius:var(--r);background:#fff;cursor:pointer;place-items:center;color:var(--ink)}
+  .burger .lucide{width:20px;height:20px}
+  .burger .ic-x{display:none}
+  .burger.open .ic-x{display:block}
+  .burger.open .ic-menu{display:none}
+  .mnav{position:fixed;top:72px;left:0;right:0;z-index:99;background:#fff;border-bottom:1px solid var(--line);padding:8px var(--pad) 24px;transform:translateY(-8px);opacity:0;pointer-events:none;transition:.25s}
+  .mnav.open{transform:none;opacity:1;pointer-events:auto}
+  .mnav a{display:block;padding:16px 0;border-bottom:1px solid var(--line);font:700 18px var(--fh);color:var(--ink);text-decoration:none}
+  .mnav .btn{width:100%;margin-top:16px}
+
+  /* ---------- Hero ---------- */
+  .hero{overflow:hidden}
+  .hero .container{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center;min-height:calc(100svh - 72px);padding-top:48px;padding-bottom:48px}
+  .eyebrow{display:flex;align-items:center;gap:12px;font:600 12px var(--fh);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:24px}
+  .dot{position:relative;width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+  .dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--accent);animation:pulse 2s ease-out infinite}
+  @keyframes pulse{from{transform:scale(.5);opacity:.8}to{transform:scale(1.8);opacity:0}}
+  .hero h1{font-size:56px;line-height:64px;font-weight:800}
+  .hero h1 .hl{color:var(--accent)}
+  .hero .lead{margin-top:24px}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:16px;margin-top:40px}
+  .hero-note{margin-top:16px;font-size:13px;line-height:1.5;color:var(--muted)}
+  .hero-art{justify-self:end;width:min(440px,100%);position:relative}
+  .arch{position:relative;background:var(--bg2);border-radius:999px 999px var(--r) var(--r);padding:48px 40px 32px;display:flex;flex-direction:column;align-items:center;gap:16px}
+  .arch .bottle{width:min(300px,72%);height:auto}
+  .arch figcaption{font:600 11px/1.5 var(--fh);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center}
+  .sticker{position:absolute;left:-24px;bottom:56px;width:128px;height:128px;background:#fff;border:1px solid var(--line);border-radius:50%;box-shadow:0 8px 24px rgba(26,26,26,.12);display:grid;place-items:center}
+  .sticker>svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 26s linear infinite}
+  .sticker-core{font:800 24px var(--fh);color:var(--accent);letter-spacing:.06em}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ---------- Таймер ---------- */
+  .countdown{background:#fff;border:1px solid var(--line-dark);border-radius:var(--r);padding:16px 24px;display:flex;align-items:center;gap:24px;flex:none}
+  .cd-label{font:600 11px/1.4 var(--fh);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);max-width:88px}
+  .cd-row{display:flex;align-items:flex-start;gap:8px}
+  .cd-cell{text-align:center;min-width:56px}
+  .cd-num{font:700 32px/1 var(--fh);font-variant-numeric:tabular-nums}
+  .cd-num.tick{animation:tickIn .35s ease}
+  @keyframes tickIn{from{opacity:.15;transform:translateY(-6px)}}
+  .cd-cap{font:600 10px var(--fh);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+  .cd-sep{font:700 24px/1.2 var(--fh);color:var(--line-dark)}
+
+  /* ---------- Плитки акции ---------- */
+  .promo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .promo-card{background:#fff;border:1px solid var(--line-dark);border-radius:var(--r);padding:32px;display:flex;flex-direction:column;gap:16px}
+  .promo-card.feature{background:var(--accent);border-color:var(--accent)}
+  .pc-big{font:800 56px/1 var(--fh);letter-spacing:-.02em}
+  .feature .pc-big{color:#fff}
+  .pc-title{font:700 18px/1.4 var(--fh)}
+  .feature .pc-title{color:#fff}
+  .pc-note{font-size:14px;line-height:1.5;color:var(--muted)}
+  .feature .pc-note{color:rgba(255,255,255,.72)}
+
+  /* ---------- Каталог ---------- */
+  .catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .p-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:16px;transition:box-shadow .25s,transform .25s}
+  .p-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+  .p-thumb{background:var(--bg2);border-radius:var(--r);aspect-ratio:1;display:grid;place-items:center;padding:16px}
+  .p-thumb svg{width:100%;height:100%;max-width:184px;transition:transform .3s}
+  .p-card:hover .p-thumb svg{transform:translateY(-4px)}
+  .p-cat{font:600 11px/1 var(--fh);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .p-name{font:700 17px/1.4 var(--fh);min-height:48px}
+  .p-prices{display:flex;align-items:baseline;gap:12px}
+  .p-prices s{font-size:15px;color:var(--muted)}
+  .p-prices b{font:800 20px var(--fh);color:var(--accent)}
+  .add-btn{width:100%;height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--accent);border-radius:var(--r);background:transparent;color:var(--accent);font:600 15px/1 var(--fh);cursor:pointer;transition:background .2s,color .2s;margin-top:auto}
+  .add-btn:hover{background:var(--accent-soft)}
+  .add-btn .lucide{width:18px;height:18px}
+  .add-btn .ic-check{display:none}
+  .add-btn.in-cart{background:var(--accent);color:#fff}
+  .add-btn.in-cart:hover{background:var(--accent-deep)}
+  .add-btn.in-cart .ic-check{display:block}
+  .add-btn.in-cart .ic-plus{display:none}
+
+  /* ---------- Обучение ---------- */
+  .training .container{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
+  .training .btn{margin-top:32px}
+  .prog-item{display:flex;gap:16px;padding:24px 0;border-top:1px solid var(--line-dark)}
+  .prog-item:last-child{border-bottom:1px solid var(--line-dark)}
+  .prog-ic{width:48px;height:48px;border-radius:var(--r);background:#fff;border:1px solid var(--line-dark);display:grid;place-items:center;color:var(--accent);flex:none}
+  .prog-ic .lucide{width:20px;height:20px}
+  .prog-item h3{font-size:16px;line-height:24px;margin-bottom:8px}
+  .prog-item p{font-size:14px;line-height:1.5;color:var(--muted)}
+
+  /* ---------- Почему мы ---------- */
+  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+  .w-item{position:relative;border-top:1px solid var(--line-dark);padding:32px 0;display:grid;grid-template-columns:48px 1fr;gap:24px}
+  .w-num{position:absolute;top:32px;right:0;font:800 14px var(--fh);letter-spacing:.1em;color:#CFC8BD}
+  .w-ic{width:48px;height:48px;border-radius:var(--r);background:var(--accent-soft);display:grid;place-items:center;color:var(--accent)}
+  .w-ic .lucide{width:22px;height:22px}
+  .w-item h3{font-size:20px;line-height:28px;margin-bottom:8px}
+  .w-item p{font-size:16px;line-height:1.5;color:var(--muted)}
+
+  /* ---------- Отзывы ---------- */
+  .proof-grid{display:grid;grid-template-columns:5fr 7fr;gap:64px}
+  .facts{margin-top:32px}
+  .fact{display:flex;align-items:baseline;gap:16px;padding:16px 0;border-top:1px solid var(--line-dark)}
+  .fact b{font:800 32px/1 var(--fh);color:var(--accent);min-width:136px;letter-spacing:-.01em}
+  .fact span{font-size:15px;line-height:1.5;color:var(--muted)}
+  .reviews{display:flex;flex-direction:column;gap:24px}
+  .rev{background:#fff;border:1px solid var(--line-dark);border-radius:var(--r);padding:32px;display:flex;flex-direction:column;gap:24px}
+  .rev p{font-size:17px;line-height:1.6}
+  .rev-who{display:flex;align-items:center;gap:16px}
+  .ava{width:48px;height:48px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font:700 15px var(--fh);flex:none}
+  .rev-name{font:700 16px var(--fh)}
+  .rev-role{font-size:13px;color:var(--muted)}
+
+  /* ---------- FAQ ---------- */
+  .acc{display:flex;flex-direction:column;gap:16px;max-width:800px}
+  .acc-item{background:var(--bg2);border-radius:var(--r)}
+  .acc-head{width:100%;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:24px 32px;background:none;border:0;cursor:pointer;text-align:left;font:700 17px/1.4 var(--fh);color:var(--ink)}
+  .chev{display:grid;place-items:center;color:var(--accent);transition:transform .3s;flex:none}
+  .chev .lucide{width:20px;height:20px}
+  .acc-item.open .chev{transform:rotate(180deg)}
+  .acc-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}
+  .acc-item.open .acc-body{grid-template-rows:1fr}
+  .acc-inner{overflow:hidden}
+  .acc-inner p{padding:0 32px 24px;font-size:16px;line-height:1.6;color:var(--muted);max-width:720px}
+
+  /* ---------- Форма ---------- */
+  .contact{background:var(--accent)}
+  .contact .container{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+  .contact h2{color:#fff}
+  .contact .lead{color:rgba(255,255,255,.78)}
+  .gain-list{margin-top:32px;display:flex;flex-direction:column;gap:16px}
+  .gain{display:flex;gap:12px;align-items:flex-start;font-size:16px;line-height:1.5;color:#fff}
+  .gain .lucide{width:18px;height:18px;color:#fff;opacity:.9;margin-top:3px;flex:none}
+  .gain-note{margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,.22);font-size:13px;line-height:1.5;color:rgba(255,255,255,.72);display:flex;gap:8px;align-items:center}
+  .gain-note .lucide{width:16px;height:16px;flex:none}
+  .form-card{background:#fff;border-radius:var(--r);padding:40px;box-shadow:0 24px 64px rgba(18,40,32,.22)}
+  .form-card>h3{margin-bottom:8px}
+  .form-card>.fc-sub{font-size:14px;line-height:1.5;color:var(--muted);margin-bottom:24px}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .field{display:flex;flex-direction:column;gap:8px}
+  .field.full{grid-column:1/-1}
+  .field label{font:600 13px var(--fh)}
+  .req{color:var(--accent)}
+  .field input,.field select,.field textarea{width:100%;height:48px;border:1px solid var(--line-dark);border-radius:var(--r);padding:0 16px;font:400 16px var(--fb);color:var(--ink);background:#fff;transition:border-color .2s,box-shadow .2s}
+  .field textarea{height:auto;min-height:104px;padding:12px 16px;resize:vertical}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(63,107,92,.12)}
+  .selwrap{position:relative}
+  .selwrap select{appearance:none;padding-right:40px}
+  .selwrap .chev-sel{position:absolute;right:16px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--muted);display:grid;place-items:center}
+  .selwrap .chev-sel .lucide{width:18px;height:18px}
+  .err{display:none;font-size:12px;color:var(--err)}
+  .field.error input,.field.error textarea{border-color:var(--err)}
+  .field.error .err{display:block}
+  .check{display:flex;gap:12px;align-items:flex-start;cursor:pointer;font-size:13px;line-height:1.5;color:var(--muted);position:relative}
+  .check input{position:absolute;opacity:0;width:1px;height:1px}
+  .box{width:20px;height:20px;border:1.5px solid var(--line-dark);border-radius:4px;display:grid;place-items:center;flex:none;margin-top:1px;transition:background .2s,border-color .2s}
+  .box .lucide{width:14px;height:14px;color:#fff;opacity:0}
+  .check input:checked ~ .box{background:var(--accent);border-color:var(--accent)}
+  .check input:checked ~ .box .lucide{opacity:1}
+  .check.error .box{border-color:var(--err)}
+  .check a{color:var(--accent)}
+  .check .err{margin-top:4px}
+  .submit-btn{width:100%}
+  .spin{display:none;width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:rot .7s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+  .submit-btn.loading .spin{display:block}
+  .submit-btn.loading .lucide{display:none}
+  .cart-hint{grid-column:1/-1;font-size:13px;line-height:1.5;color:var(--accent);background:var(--accent-soft);border-radius:var(--r);padding:8px 16px;display:none}
+  .cart-hint.show{display:block}
+  .success{display:none;text-align:center;padding:32px 0}
+  .form-card.sent form{display:none}
+  .form-card.sent .success{display:block}
+  .suc-ic{width:64px;height:64px;border-radius:50%;background:var(--accent-soft);display:grid;place-items:center;margin:0 auto 24px;color:var(--accent)}
+  .suc-ic .lucide{width:28px;height:28px}
+  .success h3{margin-bottom:8px}
+  .success p{font-size:16px;line-height:1.5;color:var(--muted);max-width:400px;margin:0 auto}
+  .suc-num{margin-top:16px;font:700 15px var(--fh);color:var(--accent)}
+  .success .btn{margin-top:24px}
+
+  /* ---------- Подвал ---------- */
+  .footer{background:#1A1A1A;color:#F5F3F0;padding:64px 0 32px}
+  .f-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .f-logo{font:800 16px var(--fh);letter-spacing:.22em;color:#fff}
+  .f-logo b{color:#8FBFAE}
+  .f-tag{margin-top:16px;font-size:14px;line-height:1.6;color:#B9B4AD;max-width:280px}
+  .f-h{font:700 13px var(--fh);letter-spacing:.12em;text-transform:uppercase;color:#8F8A83;margin-bottom:16px}
+  .f-c-item{display:flex;gap:12px;align-items:center;font-size:15px;color:#F5F3F0;margin-bottom:12px;text-decoration:none}
+  .f-c-item:hover .f-c-txt{text-decoration:underline}
+  .f-c-item .lucide{width:16px;height:16px;color:#8F8A83;flex:none}
+  .f-links a{display:block;font-size:15px;color:#D5D0C9;margin-bottom:12px;text-decoration:none}
+  .f-links a:hover{color:#fff;text-decoration:underline}
+  .f-bottom{padding-top:32px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:12px;line-height:1.5;color:#8F8A83}
+
+  /* ---------- Модалка, тосты ---------- */
+  .modal{position:fixed;inset:0;z-index:300;display:none;align-items:center;justify-content:center;padding:24px}
+  .modal.open{display:flex}
+  .modal-bg{position:absolute;inset:0;background:rgba(26,26,26,.5)}
+  .modal-card{position:relative;background:#fff;border-radius:var(--r);max-width:560px;width:100%;max-height:80vh;overflow:auto;padding:40px;animation:modIn .25s ease}
+  @keyframes modIn{from{opacity:0;transform:translateY(12px)}}
+  .modal-card h3{padding-right:48px;margin-bottom:16px}
+  .modal-card p{font-size:15px;line-height:1.6;color:var(--muted);margin-bottom:16px}
+  .modal-x{position:absolute;top:16px;right:16px;width:40px;height:40px;border:1px solid var(--line-dark);border-radius:var(--r);background:#fff;cursor:pointer;display:grid;place-items:center;color:var(--ink)}
+  .modal-x .lucide{width:18px;height:18px}
+  .toasts{position:fixed;right:24px;bottom:24px;z-index:200;display:flex;flex-direction:column;gap:8px}
+  .toast{background:var(--ink);color:#fff;border-radius:var(--r);padding:12px 16px;font:500 14px var(--fb);display:flex;gap:10px;align-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25);max-width:320px;opacity:0;transform:translateY(8px);transition:.3s}
+  .toast.show{opacity:1;transform:none}
+  .toast .lucide{width:16px;height:16px;color:#8FBFAE;flex:none}
+
+  /* ---------- Reveal ---------- */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;transition-delay:var(--d,0s)}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .sticker>svg,.dot::after{animation:none}
+  }
+
+  /* ---------- Адаптив ---------- */
+  @media (max-width:1000px){
+    .catalog-grid{grid-template-columns:repeat(2,1fr)}
+  }
+  @media (max-width:960px){
+    .sec{padding:80px 0}
+    .main-nav{display:none}
+    .burger{display:grid}
+    .hero .container{grid-template-columns:1fr;min-height:0;gap:48px}
+    .hero h1{font-size:40px;line-height:48px}
+    .hero-art{justify-self:center}
+    .sec-head{flex-direction:column;align-items:flex-start;gap:32px}
+    .training .container,.proof-grid,.contact .container{grid-template-columns:1fr;gap:48px}
+    .why-grid{grid-template-columns:1fr}
+  }
+  @media (max-width:640px){
+    .sec{padding:64px 0}
+    h2{font-size:28px;line-height:36px}
+    .hero h1{font-size:32px;line-height:40px}
+    .hero .container{padding-top:32px;padding-bottom:0}
+    .lead{font-size:17px}
+    .nav{gap:16px}
+    .nav-cta{display:none}
+    .cart-pill span{display:none}
+    .cart-pill{padding:0 12px}
+    .promo-grid,.catalog-grid{grid-template-columns:1fr}
+    .pc-big{font-size:40px}
+    .countdown{width:100%;justify-content:space-between;padding:16px}
+    .cd-label{max-width:80px}
+    .cd-cell{min-width:48px}
+    .cd-num{font-size:24px}
+    .form-card{padding:24px}
+    .form-grid{grid-template-columns:1fr}
+    .f-grid{grid-template-columns:1fr;gap:32px}
+    .acc-head{padding:20px 24px}
+    .acc-inner p{padding:0 24px 20px}
+    .sticker{left:0;bottom:-24px;width:104px;height:104px}
+    .toasts{right:16px;left:16px;bottom:16px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Библиотека векторных «фото» товаров: единый стиль, один кроп -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Пилинг PHA -->
+    <symbol id="p-peel" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="182" rx="36" ry="4.5" fill="#20201E" opacity=".08"/>
+      <rect x="88" y="38" width="24" height="18" rx="3.5" fill="#20201E"/>
+      <rect x="93" y="56" width="14" height="16" fill="#E9EFEA" stroke="#20201E" stroke-width="2"/>
+      <path d="M93 72h14v9c20 3 30 13 30 31v49a15 15 0 0 1-15 15H78a15 15 0 0 1-15-15v-49c0-18 10-28 30-31Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="71" y="118" width="58" height="46" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="100" y="133" text-anchor="middle" font-size="9" font-weight="700" letter-spacing="2" fill="#20201E">PHA</text>
+      <text x="100" y="149" text-anchor="middle" font-size="13" font-weight="800" fill="#3F6B5C">30%</text>
+      <text x="100" y="159" text-anchor="middle" font-size="5.5" letter-spacing="1.2" fill="#6B6B6B">PEELING · 200 ML</text>
+      <path d="M74 96c-3 26-3 52 0 78" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Ампулы -->
+    <symbol id="p-amp" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="182" rx="40" ry="4.5" fill="#20201E" opacity=".08"/>
+      <g opacity=".45" transform="translate(38,10) scale(.82)">
+        <path d="M87 96c0-10 6-13 6-21v-8h14v8c0 8 6 11 6 21v68a10 10 0 0 1-10 10H97a10 10 0 0 1-10-10Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2"/>
+        <path d="M95 59l5-11 5 11z" fill="#20201E"/>
+      </g>
+      <path d="M79 96c0-10 6-13 6-21v-8h14v8c0 8 6 11 6 21v68a10 10 0 0 1-10 10H89a10 10 0 0 1-10-10Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M87 59l6-12 6 12z" fill="#20201E"/>
+      <rect x="79" y="124" width="26" height="34" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="92" y="137" text-anchor="middle" font-size="5.5" font-weight="700" letter-spacing=".3" fill="#20201E">PEPTIDE</text>
+      <text x="92" y="147" text-anchor="middle" font-size="8" font-weight="800" fill="#3F6B5C">×10</text>
+      <text x="92" y="154" text-anchor="middle" font-size="4.5" letter-spacing="1" fill="#6B6B6B">5 ML</text>
+      <path d="M82 100c-2 22-2 44 0 66" stroke="#fff" stroke-width="4" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Альгинатная маска -->
+    <symbol id="p-jar" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="180" rx="48" ry="5" fill="#20201E" opacity=".08"/>
+      <rect x="56" y="58" width="88" height="18" rx="5" fill="#20201E"/>
+      <rect x="62" y="76" width="76" height="10" fill="#3F6B5C" stroke="#20201E" stroke-width="2"/>
+      <path d="M64 86h72v70a16 16 0 0 1-16 16H80a16 16 0 0 1-16-16Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="64" y="104" width="72" height="48" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="100" y="120" text-anchor="middle" font-size="9" font-weight="700" letter-spacing="2" fill="#20201E">ALGINATE</text>
+      <text x="100" y="134" text-anchor="middle" font-size="6.5" letter-spacing="2" fill="#6B6B6B">CENTELLA</text>
+      <text x="100" y="148" text-anchor="middle" font-size="11" font-weight="800" fill="#3F6B5C">1 KG</text>
+      <path d="M70 92c-2 26-2 52 0 78" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Сыворотка с пипеткой -->
+    <symbol id="p-drop" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="182" rx="34" ry="4.5" fill="#20201E" opacity=".08"/>
+      <rect x="90" y="30" width="20" height="30" rx="4" fill="#20201E"/>
+      <rect x="94" y="60" width="12" height="10" fill="#3F6B5C" stroke="#20201E" stroke-width="1.5"/>
+      <path d="M76 88c0-14 10-18 24-18s24 4 24 18v72a18 18 0 0 1-18 18H94a18 18 0 0 1-18-18Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="97" y="76" width="6" height="86" rx="3" fill="#CFDCD5" stroke="#20201E" stroke-width="1"/>
+      <path d="M97 162h6l-3 8z" fill="#CFDCD5" stroke="#20201E" stroke-width="1" stroke-linejoin="round"/>
+      <rect x="76" y="112" width="48" height="46" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="100" y="126" text-anchor="middle" font-size="6" letter-spacing="1" fill="#6B6B6B">NIACINAMIDE</text>
+      <text x="100" y="141" text-anchor="middle" font-size="13" font-weight="800" fill="#3F6B5C">10%</text>
+      <text x="100" y="152" text-anchor="middle" font-size="5" letter-spacing="1" fill="#6B6B6B">SERUM · 50 ML</text>
+      <path d="M80 96c-3 26-3 56 0 84" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Крем-барьер -->
+    <symbol id="p-cream" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="168" rx="40" ry="4.5" fill="#20201E" opacity=".08"/>
+      <rect x="70" y="52" width="60" height="16" rx="5" fill="#20201E"/>
+      <path d="M74 68h52v78a16 16 0 0 1-16 16H90a16 16 0 0 1-16-16Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="74" y="98" width="52" height="42" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="100" y="112" text-anchor="middle" font-size="8" font-weight="700" letter-spacing="1.5" fill="#20201E">BARRIER</text>
+      <text x="100" y="124" text-anchor="middle" font-size="6" letter-spacing="2" fill="#6B6B6B">CREAM</text>
+      <text x="100" y="136" text-anchor="middle" font-size="7" font-weight="800" fill="#3F6B5C">250 ML</text>
+      <path d="M80 76c-2 24-2 48 0 72" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Гель с помпой -->
+    <symbol id="p-gel" viewBox="0 0 200 200">
+      <ellipse cx="100" cy="178" rx="38" ry="4.5" fill="#20201E" opacity=".08"/>
+      <rect x="96" y="40" width="8" height="16" fill="#20201E"/>
+      <path d="M88 26h22a5 5 0 0 1 5 5v4a5 5 0 0 1-5 5H88a5 5 0 0 1-5-5v-4a5 5 0 0 1 5-5Z" fill="#20201E"/>
+      <path d="M112 30h9a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-9z" fill="#20201E"/>
+      <path d="M70 56h60v100a16 16 0 0 1-16 16H86a16 16 0 0 1-16-16Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="70" y="78" width="60" height="60" fill="#FDFCFA" stroke="#20201E" stroke-width="1.5"/>
+      <text x="100" y="94" text-anchor="middle" font-size="6" letter-spacing="1.5" fill="#6B6B6B">CLEANSING</text>
+      <text x="100" y="112" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="3" fill="#20201E">GEL</text>
+      <text x="100" y="130" text-anchor="middle" font-size="11" font-weight="800" fill="#3F6B5C">pH 5.5</text>
+      <path d="M76 66c-2 30-2 60 0 90" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- Секция 1. Меню -->
+<header class="header" id="header">
+  <div class="container nav">
+    <a class="logo" href="#top">SEORIN&nbsp;<b>PRO</b></a>
+    <nav class="main-nav" aria-label="Основное меню">
+      <a href="#promo">Акция</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#training">Обучение</a>
+      <a href="#delivery">Доставка</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-pill" id="cartPill" type="button" aria-label="Перейти к форме заявки">
+        <i data-lucide="clipboard-list"></i><span>Заявка</span><b id="cartCount">0</b>
+      </button>
+      <a href="#contacts" class="btn btn-primary nav-cta">Получить прайс</a>
+      <button class="burger" id="burger" type="button" aria-label="Меню">
+        <i data-lucide="menu" class="ic-menu"></i><i data-lucide="x" class="ic-x"></i>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav">
+  <a href="#promo">Акция</a>
+  <a href="#catalog">Каталог</a>
+  <a href="#training">Обучение</a>
+  <a href="#delivery">Доставка</a>
+  <a href="#contacts">Контакты</a>
+  <a href="#contacts" class="btn btn-primary">Получить прайс</a>
+</div>
+
+<main>
+
+<!-- Секция 2. Первый экран -->
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>Осенняя закупочная акция · до 30 сентября</p>
+      <h1>Корейская профессиональная косметика для вашего кабинета — <span class="hl">до −25%</span></h1>
+      <p class="lead">Оригинальная продукция с сертификатами, со склада в Москве. Отгрузка в день заказа. Обучение по протоколам — в подарок при заказе от 50 000 ₽.</p>
+      <div class="hero-cta">
+        <a href="#contacts" class="btn btn-primary btn-lg">Получить прайс-лист<i data-lucide="arrow-right"></i></a>
+        <a href="#catalog" class="btn btn-ghost btn-lg">Товары со скидкой</a>
+      </div>
+      <p class="hero-note">Ответим в течение рабочего дня. Без спама и звонков «просто узнать».</p>
+    </div>
+    <div class="hero-art">
+      <figure class="arch">
+        <svg class="bottle" viewBox="0 0 360 540" role="img" aria-label="Флакон пептидной сыворотки SEORIN PRO">
+          <ellipse cx="180" cy="516" rx="112" ry="13" fill="#20201E" opacity=".07"/>
+          <rect x="150" y="28" width="60" height="78" rx="12" fill="#20201E"/>
+          <line x1="162" y1="46" x2="162" y2="88" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".12"/>
+          <rect x="157" y="106" width="46" height="14" rx="4" fill="#3F6B5C" stroke="#20201E" stroke-width="2"/>
+          <rect x="162" y="120" width="36" height="22" fill="#DCE6DF" stroke="#20201E" stroke-width="2"/>
+          <path d="M104 186c0-30 32-40 76-40s76 10 76 40v262c0 36-28 64-64 64h-24c-36 0-64-28-64-64Z" fill="#E9EFEA" stroke="#20201E" stroke-width="2.5" stroke-linejoin="round"/>
+          <rect x="176" y="150" width="8" height="296" rx="4" fill="#CFDCD5" stroke="#20201E" stroke-width="1.5"/>
+          <path d="M176 446h8l-4 16z" fill="#CFDCD5" stroke="#20201E" stroke-width="1.5" stroke-linejoin="round"/>
+          <rect x="104" y="236" width="152" height="152" rx="6" fill="#FDFCFA" stroke="#20201E" stroke-width="2"/>
+          <text x="180" y="272" text-anchor="middle" font-size="15" font-weight="800" letter-spacing="3" fill="#20201E">SEORIN PRO</text>
+          <line x1="132" y1="288" x2="228" y2="288" stroke="#20201E" stroke-width="1" opacity=".25"/>
+          <text x="180" y="320" text-anchor="middle" font-size="25" font-weight="800" letter-spacing="4" fill="#20201E">PEPTIDE</text>
+          <text x="180" y="342" text-anchor="middle" font-size="10.5" letter-spacing="3" fill="#6B6B6B">AMPOULE SERUM</text>
+          <rect x="128" y="354" width="104" height="22" rx="4" fill="#3F6B5C"/>
+          <text x="180" y="369" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#F5F3F0">50 ml · SEOUL</text>
+          <path d="M122 200c-10 90-10 220 0 290" stroke="#fff" stroke-width="12" opacity=".55" fill="none" stroke-linecap="round"/>
+        </svg>
+        <figcaption>Профессиональная линейка · для кабинета и клиники</figcaption>
+        <div class="sticker" aria-hidden="true">
+          <svg viewBox="0 0 128 128">
+            <defs><path id="circ" d="M64 18a46 46 0 1 1-.01 0"/></defs>
+            <circle cx="64" cy="64" r="46" fill="none" stroke="#E3DED6" stroke-width="1"/>
+            <text font-size="8.5" font-weight="700" letter-spacing="1.2" fill="#1A1A1A"><textPath href="#circ">KOREAN PROFESSIONAL SKINCARE · SEORIN PRO ·</textPath></text>
+          </svg>
+          <span class="sticker-core">SP</span>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Секция 3. Условия акции + таймер -->
+<section class="sec sec-alt" id="promo">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <h2>Что входит в акцию</h2>
+        <p class="lead">Три условия, которые применяются к сумме вашего заказа. Чем больше закупка — тем ниже цены.</p>
+      </div>
+      <div class="countdown" role="timer" aria-label="Обратный отсчёт до конца акции">
+        <span class="cd-label">До конца акции</span>
+        <div class="cd-row">
+          <div class="cd-cell"><div class="cd-num" id="cd-d">00</div><div class="cd-cap">дней</div></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-cell"><div class="cd-num" id="cd-h">00</div><div class="cd-cap">часов</div></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-cell"><div class="cd-num" id="cd-m">00</div><div class="cd-cap">минут</div></div>
+          <div class="cd-sep">:</div>
+          <div class="cd-cell"><div class="cd-num" id="cd-s">00</div><div class="cd-cap">секунд</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="promo-grid">
+      <article class="promo-card reveal">
+        <div class="pc-big">−15%</div>
+        <h3 class="pc-title">на все базовые линейки</h3>
+        <p class="pc-note">при заказе от 30 000 ₽</p>
+      </article>
+      <article class="promo-card feature reveal" style="--d:.08s">
+        <div class="pc-big">−25%</div>
+        <h3 class="pc-title">на профессиональные пилинги и ампульные концентраты</h3>
+        <p class="pc-note">при заказе от 50 000 ₽</p>
+      </article>
+      <article class="promo-card reveal" style="--d:.16s">
+        <div class="pc-big">0 ₽</div>
+        <h3 class="pc-title">обучение по протоколам</h3>
+        <p class="pc-note">онлайн-разбор с методистом бренда — в подарок при заказе от 50 000 ₽</p>
+      </article>
+    </div>
+    <p class="footnote">Акция действует до 30 сентября включительно. Не суммируется с другими скидками.</p>
+  </div>
+</section>
+
+<!-- Секция 4. Товары со скидкой -->
+<section class="sec" id="catalog">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <h2>Товары со скидкой</h2>
+        <p class="lead">Шесть ходовых позиций из акционных линеек. Полный перечень с ценами — в прайс-листе, который пришлём по заявке.</p>
+      </div>
+    </div>
+    <div class="catalog-grid">
+      <article class="p-card reveal">
+        <div class="p-thumb"><svg role="img" aria-label="Флакон пилинга PHA"><use href="#p-peel"/></svg></div>
+        <span class="p-cat">Пилинг</span>
+        <h3 class="p-name">Пилинг PHA 30% · 200 мл</h3>
+        <div class="p-prices"><s>4 900 ₽</s><b>3 675 ₽</b></div>
+        <button class="add-btn" type="button" data-id="peel" data-name="Пилинг PHA 30% · 200 мл" data-price="3 675 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+      <article class="p-card reveal" style="--d:.06s">
+        <div class="p-thumb"><svg role="img" aria-label="Ампулы концентрата с пептидами"><use href="#p-amp"/></svg></div>
+        <span class="p-cat">Концентрат</span>
+        <h3 class="p-name">Ампульный концентрат с пептидами · 10×5 мл</h3>
+        <div class="p-prices"><s>6 400 ₽</s><b>4 800 ₽</b></div>
+        <button class="add-btn" type="button" data-id="amp" data-name="Ампульный концентрат с пептидами · 10×5 мл" data-price="4 800 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+      <article class="p-card reveal" style="--d:.12s">
+        <div class="p-thumb"><svg role="img" aria-label="Банка альгинатной маски с центеллой"><use href="#p-jar"/></svg></div>
+        <span class="p-cat">Альгинатная маска</span>
+        <h3 class="p-name">Альгинатная маска с центеллой · 1 кг</h3>
+        <div class="p-prices"><s>2 800 ₽</s><b>2 380 ₽</b></div>
+        <button class="add-btn" type="button" data-id="jar" data-name="Альгинатная маска с центеллой · 1 кг" data-price="2 380 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+      <article class="p-card reveal" style="--d:.18s">
+        <div class="p-thumb"><svg role="img" aria-label="Флакон сыворотки с ниацинамидом"><use href="#p-drop"/></svg></div>
+        <span class="p-cat">Сыворотка</span>
+        <h3 class="p-name">Сыворотка с ниацинамидом 10% · 50 мл</h3>
+        <div class="p-prices"><s>3 200 ₽</s><b>2 400 ₽</b></div>
+        <button class="add-btn" type="button" data-id="drop" data-name="Сыворотка с ниацинамидом 10% · 50 мл" data-price="2 400 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+      <article class="p-card reveal" style="--d:.24s">
+        <div class="p-thumb"><svg role="img" aria-label="Банка постпроцедурного крема-барьера"><use href="#p-cream"/></svg></div>
+        <span class="p-cat">Постпроцедурный уход</span>
+        <h3 class="p-name">Крем-барьер постпроцедурный · 250 мл</h3>
+        <div class="p-prices"><s>3 900 ₽</s><b>3 315 ₽</b></div>
+        <button class="add-btn" type="button" data-id="cream" data-name="Крем-барьер постпроцедурный · 250 мл" data-price="3 315 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+      <article class="p-card reveal" style="--d:.3s">
+        <div class="p-thumb"><svg role="img" aria-label="Флакон очищающего геля с помпой"><use href="#p-gel"/></svg></div>
+        <span class="p-cat">Очищение</span>
+        <h3 class="p-name">Очищающий гель pH 5.5 · 500 мл</h3>
+        <div class="p-prices"><s>2 100 ₽</s><b>1 785 ₽</b></div>
+        <button class="add-btn" type="button" data-id="gel" data-name="Очищающий гель pH 5.5 · 500 мл" data-price="1 785 ₽"><i data-lucide="plus" class="ic-plus"></i><i data-lucide="check" class="ic-check"></i><span class="lbl">В заявку</span></button>
+      </article>
+    </div>
+    <p class="footnote">Цены за упаковку, указаны с учётом максимальной скидки акции. Скидка зависит от суммы заказа: −15% от 30 000 ₽, −25% — от 50 000 ₽.</p>
+  </div>
+</section>
+
+<!-- Секция 5а. Обучение -->
+<section class="sec sec-alt training" id="training">
+  <div class="container">
+    <div class="reveal">
+      <h2>Обучение — в&nbsp;подарок</h2>
+      <p class="lead" style="margin-top:16px">При заказе от 50 000 ₽ — онлайн-разбор протоколов с методистом бренда. Без доплат и скрытых условий.</p>
+      <a href="#contacts" class="btn btn-primary">Получить программу<i data-lucide="arrow-right"></i></a>
+    </div>
+    <div class="reveal" style="--d:.1s">
+      <div class="prog-item">
+        <span class="prog-ic"><i data-lucide="flask-conical"></i></span>
+        <div><h3>Протоколы пилингов</h3><p>PHA- и BHA-курсы: схемы, концентрации, сочетание с аппаратными методиками.</p></div>
+      </div>
+      <div class="prog-item">
+        <span class="prog-ic"><i data-lucide="heart-pulse"></i></span>
+        <div><h3>Постпроцедурный уход</h3><p>Крем-барьер и восстановление: что назначать после агрессивных воздействий.</p></div>
+      </div>
+      <div class="prog-item">
+        <span class="prog-ic"><i data-lucide="video"></i></span>
+        <div><h3>Вебинар с методистом</h3><p>Живой разбор вопросов и записи на 30 дней. Сертификат о прохождении.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Секция 5. Почему мы -->
+<section class="sec" id="why">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <h2>Почему с нами работают клиники</h2>
+        <p class="lead">Мы — дистрибьютор, а не маркетплейс: прямой контракт, свой склад и документы на каждую партию.</p>
+      </div>
+    </div>
+    <div class="why-grid">
+      <div class="w-item reveal">
+        <span class="w-num">01</span>
+        <span class="w-ic"><i data-lucide="shield-check"></i></span>
+        <div><h3>Только оригинал</h3><p>Прямой контракт с производителем, декларации соответствия и документы на каждую партию — по запросу.</p></div>
+      </div>
+      <div class="w-item reveal" style="--d:.08s">
+        <span class="w-num">02</span>
+        <span class="w-ic"><i data-lucide="truck"></i></span>
+        <div><h3>Склад в Москве</h3><p>Отгружаем в день заказа при оформлении до 15:00. Доставка по России — 2–5 дней.</p></div>
+      </div>
+      <div class="w-item reveal" style="--d:.16s">
+        <span class="w-num">03</span>
+        <span class="w-ic"><i data-lucide="graduation-cap"></i></span>
+        <div><h3>Обучение и поддержка</h3><p>Разбор протоколов, вебинары с методистами, ответы по применению — без доплат.</p></div>
+      </div>
+      <div class="w-item reveal" style="--d:.24s">
+        <span class="w-num">04</span>
+        <span class="w-ic"><i data-lucide="file-text"></i></span>
+        <div><h3>Работаем по документам</h3><p>Договор, закрывающие документы, отсрочка платежа для постоянных клиентов.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Секция 6. Доказательства -->
+<section class="sec sec-alt" id="proof">
+  <div class="container proof-grid">
+    <div class="reveal">
+      <h2>Нам доверяют 400+ кабинетов и клиник</h2>
+      <p class="lead" style="margin-top:16px">От частных кабинетов до клиник с ежемесячными закупками.</p>
+      <div class="facts">
+        <div class="fact"><b>400+</b><span>кабинетов и клиник на постоянных поставках</span></div>
+        <div class="fact"><b>2–5 дней</b><span>доставка по России транспортными компаниями</span></div>
+        <div class="fact"><b>100%</b><span>оригинальная продукция, документы на каждую партию</span></div>
+      </div>
+    </div>
+    <div class="reviews">
+      <blockquote class="rev reveal" style="--d:.08s">
+        <p>«Перешли на эту линейку пилингов год назад. Клиенты отмечают, что восстановление проходит мягче, а у меня наконец нет проблем с наличием — заказ приходит за три дня.»</p>
+        <footer class="rev-who">
+          <span class="ava">МЛ</span>
+          <div><div class="rev-name">Марина Л.</div><div class="rev-role">косметолог-эстетист, Казань</div></div>
+        </footer>
+      </blockquote>
+      <blockquote class="rev reveal" style="--d:.16s">
+        <p>«Что важно для клиники — документы всегда в порядке и есть отсрочка. Закупаем ежемесячно на протяжении двух лет.»</p>
+        <footer class="rev-who">
+          <span class="ava">А</span>
+          <div><div class="rev-name">Клиника «Аврора»</div><div class="rev-role">Санкт-Петербург</div></div>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- Секция 7. FAQ -->
+<section class="sec" id="faq">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div>
+        <h2>Частые вопросы</h2>
+        <p class="lead">Если чего-то не хватает — задайте вопрос в форме заявки ниже, ответим текстом.</p>
+      </div>
+    </div>
+    <div class="acc reveal">
+      <div class="acc-item">
+        <button class="acc-head" type="button" aria-expanded="false"><span>Какой минимальный заказ?</span><span class="chev"><i data-lucide="chevron-down"></i></span></button>
+        <div class="acc-body"><div class="acc-inner"><p>От 15 000 ₽ для новых партнёров, дальше — без ограничений.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head" type="button" aria-expanded="false"><span>Нужны ли документы косметолога?</span><span class="chev"><i data-lucide="chevron-down"></i></span></button>
+        <div class="acc-body"><div class="acc-inner"><p>Да, для профессиональных линеек: диплом или лицензия кабинета. Загрузить можно после заявки — менеджер пришлёт ссылку.</p></div></div>
+      </div>
+      <div class="acc-item" id="delivery">
+        <button class="acc-head" type="button" aria-expanded="false"><span>Как быстро доставите?</span><span class="chev"><i data-lucide="chevron-down"></i></span></button>
+        <div class="acc-body"><div class="acc-inner"><p>Москва — 1–2 дня, регионы — 2–5 дней транспортной компанией. Заказы, оформленные до 15:00, отгружаем в тот же день со склада в Москве.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head" type="button" aria-expanded="false"><span>Можно ли получить пробники?</span><span class="chev"><i data-lucide="chevron-down"></i></span></button>
+        <div class="acc-body"><div class="acc-inner"><p>Да, при первом заказе от 30 000 ₽ добавляем пробный набор из ходовых позиций.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-head" type="button" aria-expanded="false"><span>Работаете с ИП и самозанятыми?</span><span class="chev"><i data-lucide="chevron-down"></i></span></button>
+        <div class="acc-body"><div class="acc-inner"><p>Да, с ИП и юрлицами по договору, оплата по счёту. Самозанятым — по реквизитам самозанятого.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Секция 8. Форма заявки -->
+<section class="sec contact" id="contacts">
+  <div class="container">
+    <div class="reveal">
+      <h2>Получить прайс и&nbsp;условия</h2>
+      <p class="lead" style="margin-top:16px">Пришлём актуальный прайс с акционными ценами и ответим на вопросы. Обычно — в течение рабочего дня.</p>
+      <div class="gain-list">
+        <div class="gain"><i data-lucide="check"></i><span>Прайс с ценами акции — до −25%</span></div>
+        <div class="gain"><i data-lucide="check"></i><span>Условия доставки, отсрочки и документов</span></div>
+        <div class="gain"><i data-lucide="check"></i><span>Пробный набор — при первом заказе от 30 000 ₽</span></div>
+      </div>
+      <p class="gain-note"><i data-lucide="clock"></i>Отвечаем в течение рабочего дня. Без спама и звонков «просто узнать».</p>
+    </div>
+    <div class="form-card reveal" style="--d:.1s" id="formCard">
+      <form id="leadForm" novalidate>
+        <h3>Заявка на прайс-лист</h3>
+        <p class="fc-sub">Заполните форму — пришлём прайс и условия осенней акции.</p>
+        <div class="form-grid">
+          <div class="cart-hint" id="cartHint"></div>
+          <div class="field">
+            <label for="f-name">Имя <span class="req">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться">
+            <span class="err">Укажите имя</span>
+          </div>
+          <div class="field">
+            <label for="f-phone">Телефон <span class="req">*</span></label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__">
+            <span class="err">Укажите телефон полностью</span>
+          </div>
+          <div class="field">
+            <label for="f-city">Город</label>
+            <input id="f-city" name="city" type="text" autocomplete="address-level2" placeholder="Москва">
+          </div>
+          <div class="field">
+            <label for="f-type">Тип бизнеса</label>
+            <div class="selwrap">
+              <select id="f-type" name="type">
+                <option value="" selected>Выберите тип</option>
+                <option>Кабинет косметолога</option>
+                <option>Клиника</option>
+                <option>Салон красоты</option>
+                <option>Магазин профессиональной косметики</option>
+              </select>
+              <span class="chev-sel"><i data-lucide="chevron-down"></i></span>
+            </div>
+          </div>
+          <div class="field full">
+            <label for="f-comment">Комментарий / состав заявки</label>
+            <textarea id="f-comment" name="comment" placeholder="Например: интересуют пилинги и концентраты; нужна отсрочка платежа"></textarea>
+          </div>
+          <div class="field full">
+            <label class="check" id="agreeWrap">
+              <input type="checkbox" id="f-agree" name="agree">
+              <span class="box"><i data-lucide="check"></i></span>
+              <span>Согласен(а) на <a href="#" data-modal="policy">обработку персональных данных</a> — только чтобы отправить прайс и ответить на заявку.</span>
+            </label>
+          </div>
+          <div class="field full">
+            <button type="submit" class="btn btn-primary btn-lg submit-btn" id="submitBtn">
+              <span class="spin"></span><i data-lucide="send"></i><span class="lbl">Получить прайс</span>
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="success">
+        <div class="suc-ic"><i data-lucide="check"></i></div>
+        <h3>Заявка отправлена</h3>
+        <p>Мы свяжемся с вами в течение рабочего дня и отправим прайс с акционными ценами. Если вопрос срочный — напишите нам в Telegram.</p>
+        <div class="suc-num" id="reqNum"></div>
+        <button class="btn btn-ghost" id="againBtn" type="button">Отправить ещё одну</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Секция 9. Подвал -->
+<footer class="footer">
+  <div class="container">
+    <div class="f-grid">
+      <div>
+        <div class="f-logo">SEORIN&nbsp;<b>PRO</b></div>
+        <p class="f-tag">Профессиональная корейская косметика для специалистов.</p>
+      </div>
+      <div>
+        <div class="f-h">Контакты</div>
+        <a class="f-c-item" href="tel:+74951203840"><i data-lucide="phone"></i><span class="f-c-txt">+7 (495) 120-38-40</span></a>
+        <a class="f-c-item" href="mailto:zakaz@seorinpro.ru"><i data-lucide="mail"></i><span class="f-c-txt">zakaz@seorinpro.ru</span></a>
+        <a class="f-c-item" href="#" data-modal="tg"><i data-lucide="send"></i><span class="f-c-txt">Telegram: @seorinpro</span></a>
+        <div class="f-c-item"><i data-lucide="map-pin"></i><span>Москва, ул. Складская, 12, стр. 2 — склад и самовывоз</span></div>
+      </div>
+      <div>
+        <div class="f-h">Документы</div>
+        <nav class="f-links">
+          <a href="#" data-modal="policy">Политика конфиденциальности</a>
+          <a href="#" data-modal="offer">Договор оферты</a>
+          <a href="#" data-modal="req">Реквизиты</a>
+        </nav>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 SEORIN PRO. Информация на сайте не является публичной офертой.</span>
+      <span>Работаем: пн–пт, 9:00–18:00 МСК</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Модалка документов -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-card">
+    <button class="modal-x" type="button" aria-label="Закрыть" data-close><i data-lucide="x"></i></button>
+    <h3 id="modalTitle"></h3>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+(function(){
+  'use strict';
+  const $ = s => document.querySelector(s);
+  const $$ = s => [...document.querySelectorAll(s)];
+  lucide.createIcons();
+
+  /* ---------- Шапка: тень при скролле ---------- */
+  const header = $('#header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- Мобильное меню ---------- */
+  const burger = $('#burger'), mnav = $('#mnav');
+  const closeMenu = () => { burger.classList.remove('open'); mnav.classList.remove('open'); };
+  burger.addEventListener('click', () => { burger.classList.toggle('open'); mnav.classList.toggle('open'); });
+  $$('#mnav a').forEach(a => a.addEventListener('click', closeMenu));
+
+  /* ---------- Scrollspy: активный пункт меню ---------- */
+  const spyLinks = { promo:'#promo', catalog:'#catalog', training:'#training', faq:'#delivery', contacts:'#contacts' };
+  const spy = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const target = spyLinks[e.target.id];
+      $$('.main-nav a').forEach(a => a.classList.toggle('active', a.getAttribute('href') === target));
+    });
+  }, { rootMargin:'-45% 0px -50% 0px' });
+  ['promo','catalog','training','why','faq','contacts'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) spy.observe(el);
+  });
+
+  /* ---------- Таймер до 30 сентября ---------- */
+  function getDeadline(){
+    const now = new Date();
+    let d = new Date(now.getFullYear(), 8, 30, 23, 59, 59); // 30 сентября
+    if (now > d) d = new Date(now.getFullYear() + 1, 8, 30, 23, 59, 59);
+    return d;
+  }
+  const deadline = getDeadline();
+  const cd = { d:$('#cd-d'), h:$('#cd-h'), m:$('#cd-m'), s:$('#cd-s') };
+  const pad = v => String(v).padStart(2,'0');
+  function setVal(el, v){
+    if (el.textContent !== v) {
+      el.textContent = v;
+      el.classList.remove('tick'); void el.offsetWidth; el.classList.add('tick');
+    }
+  }
+  function tick(){
+    let ms = Math.max(0, deadline - Date.now());
+    const s = Math.floor(ms / 1000);
+    setVal(cd.d, String(Math.floor(s / 86400)));
+    setVal(cd.h, pad(Math.floor(s / 3600) % 24));
+    setVal(cd.m, pad(Math.floor(s / 60) % 60));
+    setVal(cd.s, pad(s % 60));
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---------- Тосты ---------- */
+  function toast(msg){
+    const t = document.createElement('div');
+    t.className = 'toast';
+    t.innerHTML = '<i data-lucide="check"></i><span></span>';
+    t.querySelector('span').textContent = msg;
+    $('#toasts').appendChild(t);
+    lucide.createIcons({ nameAttr:'data-lucide' });
+    requestAnimationFrame(() => t.classList.add('show'));
+    setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 350); }, 2600);
+  }
+
+  /* ---------- Каталог → заявка (сквозная механика) ---------- */
+  const cart = new Map();
+  let commentTouched = false;
+  const comment = $('#f-comment');
+  comment.addEventListener('input', () => { commentTouched = true; });
+
+  function renderCart(){
+    const n = cart.size;
+    $('#cartPill').classList.toggle('show', n > 0);
+    $('#cartCount').textContent = n;
+    $$('.add-btn').forEach(b => {
+      const on = cart.has(b.dataset.id);
+      b.classList.toggle('in-cart', on);
+      b.querySelector('.lbl').textContent = on ? 'В заявке' : 'В заявку';
+    });
+    const hint = $('#cartHint');
+    hint.classList.toggle('show', n > 0);
+    if (n > 0) hint.textContent = 'В заявке ' + n + ' ' + plural(n, 'товар', 'товара', 'товаров') + ' из каталога — список добавлен в комментарий.';
+    if (!commentTouched) {
+      comment.value = n
+        ? 'Заявка из каталога:\n' + [...cart.values()].map(p => '— ' + p.name + ' — ' + p.price).join('\n')
+        : '';
+    }
+  }
+  function plural(n, a, b, c){ const m = n % 10, h = n % 100; if (m===1 && h!==11) return a; if (m>=2 && m<=4 && (h<10 || h>=20)) return b; return c; }
+
+  $$('.add-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.id;
+      if (cart.has(id)) { cart.delete(id); }
+      else {
+        cart.set(id, { name: btn.dataset.name, price: btn.dataset.price });
+        toast(btn.dataset.name + ' — в заявке');
+      }
+      renderCart();
+    });
+  });
+  $('#cartPill').addEventListener('click', () => {
+    document.getElementById('contacts').scrollIntoView({ behavior:'smooth' });
+  });
+  renderCart();
+
+  /* ---------- Аккордеон FAQ ---------- */
+  $$('.acc-head').forEach(head => {
+    head.addEventListener('click', () => {
+      const item = head.parentElement;
+      const wasOpen = item.classList.contains('open');
+      $$('.acc-item.open').forEach(o => {
+        o.classList.remove('open');
+        o.querySelector('.acc-head').setAttribute('aria-expanded','false');
+      });
+      if (!wasOpen) {
+        item.classList.add('open');
+        head.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  /* ---------- Маска телефона ---------- */
+  const tel = $('#f-phone');
+  tel.addEventListener('input', () => {
+    let d = tel.value.replace(/\D/g,'');
+    if (!d) { tel.value = ''; return; }
+    if (d[0] === '8') d = '7' + d.slice(1);
+    if (d[0] !== '7') d = '7' + d;
+    d = d.slice(0, 11);
+    let out = '+7';
+    if (d.length > 1) out += ' (' + d.slice(1,4);
+    if (d.length >= 5) out += ') ' + d.slice(4,7);
+    if (d.length >= 8) out += '-' + d.slice(7,9);
+    if (d.length >= 10) out += '-' + d.slice(9,11);
+    tel.value = out;
+  });
+
+  /* ---------- Валидация и отправка ---------- */
+  const form = $('#leadForm');
+  const fieldOf = input => input.closest('.field');
+  [['#f-name', v => v.trim().length >= 2],
+   ['#f-phone', v => v.replace(/\D/g,'').length === 11]
+  ].forEach(([sel, ok]) => {
+    const el = $(sel);
+    el.addEventListener('input', () => fieldOf(el).classList.remove('error'));
+  });
+  $('#f-agree').addEventListener('change', () => $('#agreeWrap').classList.remove('error'));
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    let ok = true;
+    if ($('#f-name').value.trim().length < 2) { fieldOf($('#f-name')).classList.add('error'); ok = false; }
+    if (tel.value.replace(/\D/g,'').length !== 11) { fieldOf(tel).classList.add('error'); ok = false; }
+    if (!$('#f-agree').checked) { $('#agreeWrap').classList.add('error'); ok = false; }
+    if (!ok) { toast('Проверьте выделенные поля'); return; }
+
+    const btn = $('#submitBtn');
+    btn.disabled = true; btn.classList.add('loading');
+    btn.querySelector('.lbl').textContent = 'Отправляем…';
+
+    /* Для реальной доставки заявки замените этот setTimeout на запрос к своему сервису,
+       например Formspree или Telegram Bot API:
+       fetch('https://formspree.io/f/ВАШ_ID', { method:'POST', body:new FormData(form), headers:{Accept:'application/json'} })
+         .then(r => { if (r.ok) showSuccess(); else toast('Не удалось отправить, попробуйте ещё раз'); });
+       В демо отправка эмулируется локально, чтобы страницу можно было показывать без ключей. */
+    setTimeout(() => {
+      $('#reqNum').textContent = 'Номер заявки: SR-' + (1000 + Math.floor(Math.random() * 9000));
+      $('#formCard').classList.add('sent');
+      toast('Заявка отправлена');
+    }, 900);
+  });
+
+  $('#againBtn').addEventListener('click', () => {
+    form.reset();
+    cart.clear(); commentTouched = false; renderCart();
+    const btn = $('#submitBtn');
+    btn.disabled = false; btn.classList.remove('loading');
+    btn.querySelector('.lbl').textContent = 'Получить прайс';
+    $('#formCard').classList.remove('sent');
+  });
+
+  /* ---------- Модалки документов ---------- */
+  const MODALS = {
+    policy: { t:'Политика обработки персональных данных', b:
+      '<p>Оператор — SEORIN PRO. Мы обрабатываем только те данные, которые вы сами указали в форме: имя, телефон, город, тип бизнеса и комментарий.</p>' +
+      '<p>Цель обработки — отправка прайс-листа, ответ на заявку и коммуникация по заказу. Данные не передаются третьим лицам и не используются для рассылок.</p>' +
+      '<p>Хранение — до достижения цели обработки либо до отзыва согласия. Отозвать согласие можно письмом на zakaz@seorinpro.ru.</p>' },
+    offer: { t:'Договор оферты', b:
+      '<p>Тексты, цены и условия акции, размещённые на странице, носят информационный характер и не являются публичной офертой (ст. 437 ГК РФ).</p>' +
+      '<p>Точную стоимость, наличие и условия поставки уточняйте у менеджера по телефону или в ответном письме на заявку.</p>' },
+    req: { t:'Реквизиты', b:
+      '<p>ООО «Сеорин Про»<br>ИНН 7712345678 · КПП 771201001 · ОГРН 1157746123456</p>' +
+      '<p>105082, Москва, ул. Складская, 12, стр. 2<br>р/с 40702810400000012345 в АО «Примербанк» · БИК 044525000</p>' +
+      '<p>Тел: +7 (495) 120-38-40 · zakaz@seorinpro.ru</p>' },
+    tg: { t:'Telegram', b:
+      '<p>Наш канал для специалистов: методисты публикуют разборы протоколов и новости поставок.</p>' +
+      '<p>Напишите нам: <b>@seorinpro</b> — отвечаем в рабочее время, обычно в течение часа.</p>' }
+  };
+  const modal = $('#modal');
+  $$('[data-modal]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault();
+    const m = MODALS[a.dataset.modal];
+    if (!m) return;
+    $('#modalTitle').textContent = m.t;
+    $('#modalBody').innerHTML = m.b;
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }));
+  const closeModal = () => { modal.classList.remove('open'); document.body.style.overflow = ''; };
+  $$('[data-close]').forEach(el => el.addEventListener('click', closeModal));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  /* ---------- Появление секций ---------- */
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold:.12 });
+  $$('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>
